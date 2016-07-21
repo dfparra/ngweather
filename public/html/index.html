@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='ngweather'>
 <head>
   <meta charset="UTF-8">
   <title>ngweather</title>
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
+  <h1>HELLO WORLD</h1>
+  <div ng-controller='SimpleController'>
+    <input type="text" ng-model = 'message'>
+    {{message}}
+  </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controllers/SimpleController.js"></script>
 
-
-<script class="src"></script>
-<script class="src"></script>
 </body>
 </html>
