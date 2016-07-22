@@ -8,8 +8,12 @@
 
   function RouteConfig($routeProvider, $locationProvider){
     $routeProvider
+    //templateUrl says go find this page
+    //template takes what you type and puts it on the screen
+
     .when('/', {
-      template: 'home'
+      templateUrl: 'html/views/home.html',
+      controller: 'HomeController'
     })
     .when('/hourly', {
       template: 'hourly'
