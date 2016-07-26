@@ -6,6 +6,10 @@
 
   function HourlyController($scope, WeatherService){
     $scope.hourlyData = WeatherService.weather;
+    $scope.summaryLookup = {
+      'Drizzle': 'There will be some drizzle',
+      'Partly Cloudy': 'The skies will be partly cloudy',
+    };
 
     $scope.$watch(function(){
       return WeatherService.weather;
