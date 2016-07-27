@@ -1,1 +1,18 @@
-<h1>MINUTELY!</h1>
+<!-- <h1>MINUTELY!</h1> -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h3>Latitude: {{minutelyData.latitude}}, Longitude: {{minutelyData.longitude}}</h3>
+    </div>
+  </div>
+  <div class="row" ng-repeat='card in minutelyData.minutely.data'>
+    <div class="col-md-6 col-md-offset-3 well">
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row">
+        <h5>Wind Speed: {{card.time}} mph</h5>
+      </div>
+    </div>
+  </div>
+</div>
