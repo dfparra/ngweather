@@ -1,4 +1,38 @@
 
 body{
-  background-color: lightblue;
+  background-color:	#3b5998;
 }
+
+.btn{
+  background-color: #8b9dc3;
+}
+
+.view-header{
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.home-header{
+  font-size: 100px;
+  padding-top: 50px;
+}
+
+.weather-card{
+  color: #3b5998;
+  background-color:	#f7f7f7;
+
+}
+/*.hourly-header{
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.minutely-header{
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.daily-header{
+  text-align: center;
+  color: #f7f7f7;
+}*/

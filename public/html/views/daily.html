@@ -3,17 +3,17 @@
   <!-- GPS Location -->
   <div class="row">
     <div class="col-md-6 col-md-offset-3" align='center'>
-      <h3>Latitude: {{dailyData.latitude}}, Longitude: {{dailyData.longitude}}</h3>
-      <img ng-src="images/{{dailyData.icon}}.png" alt="{{dailyData.icon}}" style='width: 100px;'>
-      <h5>{{dailyData.summary}}</h5>
+      <h3 class="view-header">Latitude: {{dailyData.latitude}}, Longitude: {{dailyData.longitude}}</h3>
+      <img ng-src="images/{{dailyData.icon}}.png" alt="{{dailyData.icon}}" >
+      <h5 class="view-header">{{dailyData.summary}}</h5>
     </div>
   </div>
 
   <div class="row" ng-repeat='card in dailyData.daily'>
-    <div class="col-md-6 col-md-offset-3 well">
+    <div class="weather-card col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 well">
       <div class="row">
         <div class="col-md-4">
-          <img ng-src="images/{{card.icon}}.png" alt="{{card.icon}}" style='width: 100px;'>
+          <img ng-src="images/{{card.icon}}.png" alt="{{card.icon}}">
         </div>
         <div class="col-md-4">
           <h3>Temp. Max: {{card.tempMax}}&deg;</h3>
