@@ -7,32 +7,38 @@ body{
   background-color: #8b9dc3;
 }
 
-.view-header{
+/*.view-header{
   text-align: center;
   color: #f7f7f7;
-}
+}*/
 
 .home-header{
   font-size: 100px;
   padding-top: 50px;
+  text-align: center;
+  color: #f7f7f7;
 }
 
 .weather-card{
   color: #3b5998;
-  background-color:	#f7f7f7;
+  background-color:	#dfe3ee;
 
-}
-/*.hourly-header{
-  text-align: center;
-  color: #f7f7f7;
 }
 
 .minutely-header{
   text-align: center;
   color: #f7f7f7;
+  background-color: #8b9dc3;
+}
+
+.hourly-header{
+  text-align: center;
+  color: #f7f7f7;
+  background-color: #8b9dc3;
 }
 
 .daily-header{
   text-align: center;
   color: #f7f7f7;
-}*/
+  background-color: #8b9dc3;
+}
